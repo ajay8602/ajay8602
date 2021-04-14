@@ -9,4 +9,8 @@ public class D{
     public String getDefaultName() {
         return defaultName;
     }
+    
+    public static void main(String[] args){
+			System.out.println("Hello Chacha");
+	}
 }
