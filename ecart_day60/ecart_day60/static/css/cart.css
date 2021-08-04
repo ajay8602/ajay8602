@@ -1,0 +1,146 @@
+h2{
+	color: #2b8613;
+	border-bottom: 1px solid #777;
+	width: 70%;
+	padding-bottom: 10px;
+	
+	margin: 10px auto;
+}
+
+h2 span{
+	margin-left: 20px;
+
+}
+
+#cart_box{
+	width: 70%;
+	margin: 15px auto;
+	/* border: 1px solid red; */
+}
+
+.prod_rec{
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+
+.rec_lft{
+	width: 20%;
+	/* border: 1px solid green; */
+	padding: 5px;
+	text-align: center;
+}
+
+.rec_lft img{
+	height: 80px;
+}
+
+.rec_rht{
+	width: 75%;
+	float: right;
+	/* border: 1px solid red; */
+	height: 75px;
+	padding: 10px;
+}
+
+.prod_ttl{
+	font-weight: bold;
+	color: #555;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.prod_price{
+	float: right;
+	padding: 15px;
+	/* border: 1px solid red; */
+	font-weight: bold;
+	color: #666;
+	font-size: 22px;
+}
+
+.discount{
+	font-weight: normal;
+	text-decoration: line-through;
+	font-size: 20px;
+}
+
+.quantity_box{
+	width: 70%;
+	/* border: 1px solid red; */
+}
+
+.quantity_box select{	
+	font-weight: bold;
+}
+
+.rec_rht_lft{
+	/* border: 1px solid blue; */
+	width: 75%; 
+	float: left;
+}
+
+#cart_total_box{
+	font-weight: bold;
+	font-size: 24px;
+	text-align: right;
+	padding: 5px;
+	width: 70%;
+	margin: 5px auto;
+}
+
+#ttl_lbl{
+	color: #555;
+}
+
+#ttl{
+	color: #f35543;
+	margin-right: 70px;
+}
+
+.del_box{
+	color: red;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 70px;
+}
+
+.del_box img{
+	height: 20px;
+	vertical-align: top;
+}
+
+#empty{
+	display: none;
+	width: 300px;
+	margin: 30px auto;
+	border: 1px solid #999;
+	border-radius: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	text-align: center;
+	color: #999;
+	background-color: #eee;
+}
+
+#button_box{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	border-top: 1px solid #777;
+	margin: 20px auto 100px auto;
+	width: 80%;
+}
+
+#button_box input{	
+	font-weight: bold;
+	color: white;
+	background-color: #40ad16;
+	padding: 7px 12px;
+	border-radius: 7px;
+	cursor: pointer;
+	font-size: 20px;
+	border: 1px solid #40ad16;
+}

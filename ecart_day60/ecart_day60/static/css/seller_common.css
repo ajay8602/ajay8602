@@ -1,0 +1,17 @@
+.seller_home{
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.seller_name{
+	font-weight: bold;
+	font-size: 20px;
+	color: #555;
+}
+
+#new_product_box{
+	margin: 20px auto;
+	width: 80%;
+	/* border: 1px solid red; */	
+}
+

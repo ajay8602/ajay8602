@@ -1,0 +1,22 @@
+#outer_box{
+	margin: 30px auto;
+	/* border: 1px solid red; */
+	width: 70%;
+}
+
+.outer_box_cell{
+	/* border: 1px solid green; */
+}
+
+#form_box{
+	/* border: 1px solid blue; */
+	width: 90%;
+}
+
+.lft{
+	text-align: right;
+}
+
+#profpic{
+
+}

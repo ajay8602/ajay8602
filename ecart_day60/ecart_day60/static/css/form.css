@@ -1,0 +1,103 @@
+#error_message{
+	display: none;
+	width: 40%;
+	margin: 20px auto;
+	border: 1px solid #e20a0a;
+	border-radius: 7px;
+	background-color: #ffecec;
+	color: #f85252;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+
+.form_box{
+	margin: 30px auto;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	width: 50%;
+	margin-bottom: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+caption{
+	font-size: 26px;
+	font-weight: bold;
+	color: #555;
+	text-align: left;
+	border-bottom: 1px solid #999;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	margin-bottom: 10px;
+}
+
+tr{
+	height: 55px;
+}
+
+.lft{
+	font-size: 20px;
+	font-weight: bold;
+	color: #555;
+	text-align: right;
+	padding-right: 7px;
+}
+
+.rht input{
+	font-size: 20px;
+	padding: 5px 8px;	
+	border-radius: 5px;
+}
+
+.onecol{	
+	padding: 5px 8px;	
+	border-radius: 5px;
+}
+
+.onecol textarea{
+	font-size: 20px;
+}
+
+.input_normal{
+	color: #555;
+	border: 1px solid #777;
+}
+
+.instruction{
+	font-size: 14px;
+	color: #aaa;
+}
+
+.button{
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #10cd1a;
+	padding: 8px 16px;
+	border: 1px solid #10cd1a;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.error{
+	border: 1px solid #e20a0a;
+	background-color: #ffecec;
+	color: #f85252;
+}
+
+select{
+	font-size: 20px;
+	padding: 5px 8px;	
+	border-radius: 5px;
+}
+
+.lft{
+	width: 45%;
+}
+
+.rht{
+	width: 55%;
+}

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+  <context-param>
+	<param-name>sender_email</param-name>
+	<param-value>dinesh22922@gmail.com</param-value>
+  </context-param>
+
+  <context-param>
+	<param-name>sender_email_password</param-name>
+	<param-value>Krishna$$12#</param-value>
+  </context-param>
+
+  <context-param>
+	<param-name>secret_key</param-name>
+	<param-value>6LckhtcZAAAAAFYVlPriMW5vFJLE0xc6-zX8V8eO</param-value>
+  </context-param>
+ 
+
+  <servlet>
+	<servlet-name>ecart_000</servlet-name>
+	<servlet-class>controllers.HomePageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_000</servlet-name>
+	<url-pattern>/home.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_001</servlet-name>
+	<servlet-class>controllers.SignupServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_001</servlet-name>
+	<url-pattern>/signup.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>ecart_002</servlet-name>
+	<servlet-class>controllers.AccountActivationServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_002</servlet-name>
+	<url-pattern>/activate.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_003</servlet-name>
+	<servlet-class>controllers.UniqueCheckServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_003</servlet-name>
+	<url-pattern>/unique_check.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_004</servlet-name>
+	<servlet-class>controllers.SigninServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_004</servlet-name>
+	<url-pattern>/signin.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_005</servlet-name>
+	<servlet-class>controllers.ProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_005</servlet-name>
+	<url-pattern>/profile.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_006</servlet-name>
+	<servlet-class>controllers.CitySearchServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_006</servlet-name>
+	<url-pattern>/city_search.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_007</servlet-name>
+	<servlet-class>controllers.AddressServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_007</servlet-name>
+	<url-pattern>/address.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_008</servlet-name>
+	<servlet-class>controllers.ProfpicServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_008</servlet-name>
+	<url-pattern>/profpic.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_009</servlet-name>
+	<servlet-class>controllers.SignoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_009</servlet-name>
+	<url-pattern>/signout.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_010</servlet-name>
+	<servlet-class>controllers.ShowProfpicServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_010</servlet-name>
+	<url-pattern>/showprofpic.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_011</servlet-name>
+	<servlet-class>controllers.SendOTPServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_011</servlet-name>
+	<url-pattern>/sendotp.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_012</servlet-name>
+	<servlet-class>controllers.SellerPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_012</servlet-name>
+	<url-pattern>/seller_page.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_013</servlet-name>
+	<servlet-class>controllers.NewSellerServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_013</servlet-name>
+	<url-pattern>/new_seller.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_014</servlet-name>
+	<servlet-class>controllers.SellerDashboardServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_014</servlet-name>
+	<url-pattern>/seller_dashboard.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>ecart_015</servlet-name>
+	<servlet-class>controllers.NewProductServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_015</servlet-name>
+	<url-pattern>/new_product.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>ecart_016</servlet-name>
+	<servlet-class>controllers.SaveProductDescriptionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_016</servlet-name>
+	<url-pattern>/save_product_desc.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_017</servlet-name>
+	<servlet-class>controllers.SaveWarrantyServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_017</servlet-name>
+	<url-pattern>/save_warranty.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_018</servlet-name>
+	<servlet-class>controllers.SaveReturningPolicyServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_018</servlet-name>
+	<url-pattern>/save_returning_policy.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_019</servlet-name>
+	<servlet-class>controllers.SaveShipmentDetailsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_019</servlet-name>
+	<url-pattern>/save_shipment_details.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_020</servlet-name>
+	<servlet-class>controllers.SavePaymentDetailsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_020</servlet-name>
+	<url-pattern>/save_payment_details.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>ecart_021</servlet-name>
+	<servlet-class>controllers.SaveProductPointsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_021</servlet-name>
+	<url-pattern>/save_product_points.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>ecart_022</servlet-name>
+	<servlet-class>controllers.SaveProductPicsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>ecart_022</servlet-name>
+	<url-pattern>/product_pic_upload.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_023</servlet-name>
+  	<servlet-class>controllers.AllProductsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_023</servlet-name>
+  	<url-pattern>/allproducts.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_024</servlet-name>
+  	<servlet-class>controllers.ProductImageServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_024</servlet-name>
+  	<url-pattern>/product_image.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_025</servlet-name>
+  	<servlet-class>controllers.ViewProductServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_025</servlet-name>
+  	<url-pattern>/viewproduct.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_026</servlet-name>
+  	<servlet-class>controllers.ProductPicsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_026</servlet-name>
+  	<url-pattern>/all_product_pics.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_027</servlet-name>
+  	<servlet-class>controllers.ShowProductPicServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_027</servlet-name>
+  	<url-pattern>/product_pic.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  	<servlet-name>ecart_028</servlet-name>
+  	<servlet-class>controllers.ShowProductPointsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_028</servlet-name>
+  	<url-pattern>/all_product_points.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_029</servlet-name>
+  	<servlet-class>controllers.SearchServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_029</servlet-name>
+  	<url-pattern>/search.do</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+  	<servlet-name>ecart_030</servlet-name>
+  	<servlet-class>controllers.AddToCartServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_030</servlet-name>
+  	<url-pattern>/addtocart.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  	<servlet-name>ecart_031</servlet-name>
+  	<servlet-class>controllers.ShowCartServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_031</servlet-name>
+  	<url-pattern>/showcart.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_032</servlet-name>
+  	<servlet-class>controllers.UpdateCartServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_032</servlet-name>
+  	<url-pattern>/update_cart.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_033</servlet-name>
+  	<servlet-class>controllers.DeleteCartRecordServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_033</servlet-name>
+  	<url-pattern>/delete_cart_record.do</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  	<servlet-name>ecart_034</servlet-name>
+  	<servlet-class>controllers.ShowAddressesServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ecart_034</servlet-name>
+  	<url-pattern>/all_addresses.do</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+	
+
+  <listener>
+	<listener-class>listeners.AppListener</listener-class>
+  </listener>
+
+
+
+</web-app>

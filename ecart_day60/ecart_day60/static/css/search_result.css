@@ -1,0 +1,181 @@
+
+h2{
+	width: 40%;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 7px;
+}
+
+#new_product{
+	background-color: #0eb630;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	padding: 5px 12px;
+	text-decoration: none;
+	border-radius: 8px;
+	float: right;
+}
+
+#outer_box{
+	width: 90%;
+	margin: 20px auto;
+}
+
+
+
+#inr_rht{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+
+
+#blk1{	
+	width: 95%;
+	margin: 20px auto;	
+}
+
+#allprods_ttl{
+	width: 20%;
+	background-color: #444;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px 12px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.prodrec_{
+	border: 1px solid #999;
+	border-radius: 8px;
+	padding: 1px;
+	margin-bottom: 15px;
+	height: 100px;
+}
+
+.no_recs{
+	width: 30%;
+	margin: 20px auto;
+	padding: 12px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #f8736b;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+
+.prodrec_lft{
+	width: 20%;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.prodrec_rht{
+	float: right;
+	width: 79%;
+}
+
+.prodrec_img{
+	height: 75px;
+}
+
+.prodrec_ttl{
+	/* border: 1px solid red; */
+	margin: 10px;
+	font-size: 20px;	
+	font-weight: bold;
+}
+
+.prodrec_ttl a{
+	color: #555;
+	text-decoration: none;
+}
+
+.prodrec_otl{
+	/* border: 1px solid blue; */
+	margin: 10px;
+	font-size: 18px;
+	color: #777;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+
+.price_{
+	font-weight: bold;
+}
+
+.mrp_{
+	color: #555;
+	font-size: 16px;
+	margin-right: 30px; 
+}
+
+.qt_{
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.sold_{
+	font-weight: bold;
+}
+
+.blk_hide{
+	display: none;
+}
+
+.prorec_act{
+	float: right;
+	width: 200px;
+	/* border: 1px solid red; */
+	margin-right: 20px;
+}
+
+.prorec_ico{
+	height: 30px;
+	margin-top: 5px;
+}
+
+.act_btn{
+	text-decoration: none; 
+	font-weight: bold;
+	color: white;
+	background-color: #40ad16;
+	padding: 7px 12px;
+	border-radius: 7px;
+	display: inline-block;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.addtocartbtn{
+	background-color: #df26a3;
+}
+
+.proqt{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 2px 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#msg{
+	border: 1px solid #2e7c10;
+	background-color: #effcf1;
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	width: 300px;
+	text-align: center;
+	font-weight: bold;
+	color: #2e7c10;
+	position: fixed;
+	top: 80px; 
+	display: none;
+}

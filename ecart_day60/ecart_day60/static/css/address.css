@@ -1,0 +1,42 @@
+#button2{
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #b77ce7;
+	padding: 8px 16px;
+	border: 1px solid #b77ce7;
+	border-radius: 8px;
+	cursor: pointer;
+	float: left;
+	margin-left: 20px;
+}
+
+#button{
+	float: right;
+	margin-right: 20px;
+}
+
+#srch_res{
+	border: 1px solid #999;
+	width: 253px;
+	position: absolute;
+	left: 110px;
+	top: 44px;
+	background-color: white;
+	display: none;
+	z-index: 1000;
+}
+
+#srch_res div{
+	border: 1px solid #eee;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#ct_box{
+	position: relative;
+}
+

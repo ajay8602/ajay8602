@@ -1,0 +1,178 @@
+#main_body{
+	margin-bottom: 50px;
+}
+
+#prod_ttl{
+	margin: 20px auto 0px auto;
+	color: #444;
+	background-color: #f4f4f4;
+	padding: 8px;
+	border-radius: 8px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#product_box{
+	width: 90%;
+	/* border: 1px solid blue; */
+	border-radius: 8px;
+	margin: 10px auto;
+	/* padding: 20px; */
+}
+
+#lft{
+	width: 32%;
+	border-right: 1px solid #ccc;
+	float: left;
+	/* padding: 1%; */
+}
+
+#all_pics_box{
+	float: left;
+	width: 18%;
+	/* border: 1px solid green; */
+	text-align: center;
+}
+
+.small_pic{
+	width: 50px;
+}
+
+#pic_box{
+	height: 240px;
+	width: 79%;
+	margin-left: 20%;
+	/* border: 1px solid orange; */
+	text-align: center;
+}
+
+#pic_focus{
+	width: 90%;
+}
+
+#rht{
+	width: 66%;
+	/* border: 1px solid red; */
+	/* height: 250px; */
+	margin-left: 34%;
+}
+
+.recs{
+	color: #555;
+}
+
+#slr_{
+	background-color: #f8f8f8;
+	border: #fafafa;
+	padding-left: 15px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.ttl{
+	color: #777;
+	font-size: 14px;
+	/* font-weight: bold; */
+}
+
+#seller{
+	/* font-weight: bold; */
+}
+
+#price{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#aftdisc{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #f2811a;
+	color: white;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+#mrp{
+	font-size: 16px;
+	color: #999;
+}
+
+#other_details_box{
+	border: 1px solid #ccc;
+	min-height: 150px;
+}
+
+#all_tabs{
+	/* border: 1px solid blue; */
+	/* height: 40px; */
+}
+
+#tabs{
+	list-style: none; 
+	display: inline-block;
+}
+
+#all_tabs div{	
+	border: 1px solid #555;
+	border-bottom: none;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 5px 12px 5px 12px;
+	/* height: 30px; */
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.desc_nsel{
+	background-color: #fff;
+	color: #555;
+}
+
+.desc_sel{
+	background-color: #555;
+	color: #fff;
+}
+
+.odtl{
+	/* border: 1px solid red; */
+	/* height: 100px; */
+	width: 95%;
+	margin: 18px auto;
+}
+
+.odtl_show{
+	display: block;
+}
+
+.odtl_hide{
+	display: none;
+}
+
+#propt_tbl{
+	width: 80%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	border-radius: 8px;
+}
+
+#propt_tbl td{
+	border: 1px solid #ccc;
+	width: 50%;
+	padding-left: 20px;
+	color: #555;
+	height: 45px;
+}
+
+#propt_tbl caption{
+	background-color: #777;
+	color: #fff;
+	padding: 7px 20px;
+	font-weight: bold;
+	text-align: left;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}

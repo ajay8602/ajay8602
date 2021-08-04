@@ -1,0 +1,125 @@
+#steps{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#steps li{
+	list-style: none;
+	display: inline-block;
+	border: 2px solid #555;
+	border-radius: 80px;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+.step_box{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.show{
+	display: block; 
+
+}
+
+.hide{
+	display: none;
+}
+
+.sel{
+	background-color: #555;
+	color: white;
+}
+
+.done{
+	background-color: #999;
+	color: #555;
+}
+
+.form_box{
+	width: 60%;
+	border: 1px solid #ccc;	
+}
+
+.form_box td,th{
+	/* border: 1px solid #ccc; */	
+}
+
+.block1,.block2,.block3{
+	width: 33%;
+}
+
+.block1{
+	text-align: center;
+	width: 10%;
+	font-weight: bold;
+}
+
+.block2,.block3{
+	width: 45%;
+	text-align: center;
+}
+
+.block2 input{
+	font-size: 20px;
+	padding: 5px 8px;	
+	border-radius: 5px;
+}
+
+.block3 textarea{
+	font-size: 18px;	
+}
+
+.label{
+	font-size: 20px;
+	font-weight: bold;
+	height: 20px;
+}
+
+.product_title{
+	background-color: #616161;
+	color: white;
+	padding-left: 100px;
+}
+
+.record_header{
+	background-color: #8d8d8d;
+	color: white;
+}
+
+#add_ico{
+	height: 45px;
+	vertical-align: middle;
+}
+
+#add_more{
+	font-size: 24px;
+	font-weight: bold;
+	color: #33BEA6;
+}
+
+#add_more_link{
+	cursor: pointer;
+}
+
+#prod_point_box_{
+	height: 350px;
+	max-height: 500px;
+	overflow: auto;
+}
+
+#add_file{
+	height: 40px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.lft{
+	width: 45%;
+}
+
+.rht{
+	width: 55%;
+}

@@ -1,0 +1,73 @@
+#address_box{
+	width: 90%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+#lft_box{
+	width: 15%;	
+	height: 450px;
+	overflow: auto;
+	/* border: 1px solid red; */
+}
+
+#rht_box{
+	width: 84%;
+	float: right;
+	height: 400px;
+	overflow: auto;
+	/* border: 1px solid green; */
+}
+
+.adrtab,#addnew{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-align: center;
+	font-weight: bold;
+	color: #555;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+#record_box{
+	padding: 20px;
+	border: 1px solid #999;
+	border-radius: 7px;
+	height: 200px;
+	max-height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #eee;
+	overflow: auto;
+	display: inline-block;
+}
+
+#form_box_container{
+	padding: 20px;
+	/* border: 1px solid blue; */
+	height: 450px;
+	display: none;
+}
+
+.hd{
+	background-color: #777;
+	color: #fff;
+	padding: 5px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.sendtobtn{
+	float: right;
+	cursor: pointer;
+}
+
+.addr{
+	font-style: italic;
+	font-size: 18px;
+	padding-top: 10px;
+}
